@@ -14,3 +14,12 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+ion-app.ios [padding], ion-app.ios [padding] .scroll-content{
+padding: 16px;
+padding: calc(constant(safe-area-inset-top) + 16px) calc(constant(safe-area-inset-right) + +16px) calc(constant(safe-area-inset-bottom) + 16px) calc(constant(safe-area-inset-left) + 16px)
+
+}
+
+.tabs-ios .tabbar {
+  padding-bottom: constant(safe-area-inset-bottom);
+}

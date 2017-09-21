@@ -1,37 +1,72 @@
-ion-app.ios [padding], ion-app.ios [padding] .scroll-content {
-  padding: 16px;
-  padding: calc(constant(safe-area-inset-top) + 16px)
-    calc(constant(safe-area-inset-right) + 16px)
-    calc(constant(safe-area-inset-bottom) + 16px)
-    calc(constant(safe-area-inset-left) + 16px);
-}
-.ios ion-nav > .ion-page > .toolbar.statusbar-padding:first-child ion-segment, .ios ion-nav > .ion-page > .toolbar.statusbar-padding:first-child ion-title, .ios ion-nav > .ion-page > ion-header > .toolbar.statusbar-padding:first-child ion-segment, .ios ion-nav > .ion-page > ion-header > .toolbar.statusbar-padding:first-child ion-title, .ios ion-tab > .ion-page > ion-header > .toolbar.statusbar-padding:first-child ion-segment, .ios ion-tab > .ion-page > ion-header > .toolbar.statusbar-padding:first-child ion-title, .ios ion-tabs > .ion-page.tab-subpage > ion-header > .toolbar.statusbar-padding:first-child ion-segment, .ios ion-tabs > .ion-page.tab-subpage > ion-header > .toolbar.statusbar-padding:first-child ion-title, .ios ion-menu > .menu-inner > .toolbar.statusbar-padding:first-child ion-segment, .ios ion-menu > .menu-inner > .toolbar.statusbar-padding:first-child ion-title, .ios ion-menu > .menu-inner > ion-header > .toolbar.statusbar-padding:first-child ion-segment, .ios ion-menu > .menu-inner > ion-header > .toolbar.statusbar-padding:first-child ion-title{
-
-  padding-top: 20px;
-height: calc(44px + 20px);
-min-height: calc(44px + 20px);
-min-height: calc(constant(safe-area-inset-top) + 44px);
-padding-top: calc(constant(safe-area-inset-top) + 4px);
-
-}
-.tabs-ios .tabbar {
-  padding-bottom: constant(safe-area-inset-bottom);
-}
-
-.ios ion-nav > .ion-page > .toolbar.statusbar-padding:first-child,
-.ios ion-nav > .ion-page > ion-header > .toolbar.statusbar-padding:first-child,
-.ios ion-tab > .ion-page > ion-header > .toolbar.statusbar-padding:first-child,
-.ios ion-tabs
-  > .ion-page.tab-subpage
-  > ion-header
-  > .toolbar.statusbar-padding:first-child,
-.ios ion-menu > .menu-inner > .toolbar.statusbar-padding:first-child,
-.ios ion-menu
-  > .menu-inner
-  > ion-header
-  > .toolbar.statusbar-padding:first-child {
-  padding-top: calc(20px + 4px);
-  padding-top: calc(constant(safe-area-inset-top) + 4px);
-  min-height: calc(44px + 20px);
-  min-height: calc(constant(safe-area-inset-top) + 44px);
-}
+// ion-app.ios [padding], ion-app.ios [padding] .scroll-content {
+//   padding: 16px;
+//   padding: calc(constant(safe-area-inset-top) + 16px)
+//     calc(constant(safe-area-inset-right) + 16px)
+//     calc(constant(safe-area-inset-bottom) + 16px)
+//     calc(constant(safe-area-inset-left) + 16px);
+// }
+// .ios ion-nav > .ion-page > .toolbar.statusbar-padding:first-child ion-segment,
+// .ios ion-nav > .ion-page > .toolbar.statusbar-padding:first-child ion-title,
+// .ios ion-nav
+//   > .ion-page
+//   > ion-header
+//   > .toolbar.statusbar-padding:first-child ion-segment,
+// .ios ion-nav
+//   > .ion-page
+//   > ion-header
+//   > .toolbar.statusbar-padding:first-child ion-title,
+// .ios ion-tab
+//   > .ion-page
+//   > ion-header
+//   > .toolbar.statusbar-padding:first-child ion-segment,
+// .ios ion-tab
+//   > .ion-page
+//   > ion-header
+//   > .toolbar.statusbar-padding:first-child ion-title,
+// .ios ion-tabs
+//   > .ion-page.tab-subpage
+//   > ion-header
+//   > .toolbar.statusbar-padding:first-child ion-segment,
+// .ios ion-tabs
+//   > .ion-page.tab-subpage
+//   > ion-header
+//   > .toolbar.statusbar-padding:first-child ion-title,
+// .ios ion-menu
+//   > .menu-inner
+//   > .toolbar.statusbar-padding:first-child ion-segment,
+// .ios ion-menu > .menu-inner > .toolbar.statusbar-padding:first-child ion-title,
+// .ios ion-menu
+//   > .menu-inner
+//   > ion-header
+//   > .toolbar.statusbar-padding:first-child ion-segment,
+// .ios ion-menu
+//   > .menu-inner
+//   > ion-header
+//   > .toolbar.statusbar-padding:first-child ion-title {
+//   padding-top: 20px;
+//   height: calc(44px + 20px);
+//   min-height: calc(44px + 20px);
+//   min-height: calc(constant(safe-area-inset-top) + 44px);
+//   padding-top: calc(constant(safe-area-inset-top) + 4px);
+// }
+// .tabs-ios .tabbar {
+//   padding-bottom: constant(safe-area-inset-bottom);
+// }
+//
+// .ios ion-nav > .ion-page > .toolbar.statusbar-padding:first-child,
+// .ios ion-nav > .ion-page > ion-header > .toolbar.statusbar-padding:first-child,
+// .ios ion-tab > .ion-page > ion-header > .toolbar.statusbar-padding:first-child,
+// .ios ion-tabs
+//   > .ion-page.tab-subpage
+//   > ion-header
+//   > .toolbar.statusbar-padding:first-child,
+// .ios ion-menu > .menu-inner > .toolbar.statusbar-padding:first-child,
+// .ios ion-menu
+//   > .menu-inner
+//   > ion-header
+//   > .toolbar.statusbar-padding:first-child {
+//   padding-top: calc(20px + 4px);
+//   padding-top: calc(constant(safe-area-inset-top) + 4px);
+//   min-height: calc(44px + 20px);
+//   min-height: calc(constant(safe-area-inset-top) + 44px);
+// }
